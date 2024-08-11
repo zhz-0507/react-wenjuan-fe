@@ -1,5 +1,5 @@
 import { FC } from "react";
-
+import { Button } from 'antd';
 const Login: FC = () => {
 
   const handleLogin = () => {
@@ -9,7 +9,7 @@ const Login: FC = () => {
   return (
     <div>
       <h1>Login</h1>
-      <button onClick={handleLogin}>登录</button>
+      <Button type="primary">Button</Button>
     </div>
   );
 };
