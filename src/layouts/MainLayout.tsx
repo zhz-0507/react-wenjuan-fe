@@ -6,7 +6,6 @@ import Logo from '../components/Logo'
 import UserInfo from '../components/UserInfo'
 
 const MainLayout: FC = () => {
-
   const { Header, Footer, Content } = Layout;
   return (
    <Layout>
@@ -23,9 +22,8 @@ const MainLayout: FC = () => {
           <Outlet></Outlet>
         </Content>
       </Layout>
-      <Footer className={styles.footer}>小慕问卷 &copy;2024 - present. Created by 海珠老师</Footer>
+      <Footer className={styles.footer}>小慕问卷 &copy;2024 - present. Created by zzz老师</Footer>
    </Layout>
-   
   )
 };
 
